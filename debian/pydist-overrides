@@ -2,3 +2,4 @@
 pytz python-tz
 pyCalverter python-calverter
 lunardate python-lunardate
+pyephem python-pyephem
