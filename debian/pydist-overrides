@@ -1,0 +1,4 @@
+# Required until debian generates metadata-1.1 or 1.2 egg_info
+pytz python-tz
+pyCalverter python-calverter
+lunardate python-lunardate
