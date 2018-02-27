@@ -9,12 +9,12 @@ Workalendar is a Python module that offers classes able to handle calendars,
 list legal / religious holidays and gives working-day-related computation
 functions.
 
-
 Status
 ======
 
-This is barely beta. Please consider this module as a work in progres.
+This library is ready for production, although we may warn eventual users: some calendars may not be up-to-date, and this library doesn't cover all the existing countries on earth (yet).
 
+If you spot any bug or wish to add a calendar, please refer to the `Contributing doc <CONTRIBUTING.rst>`_.
 
 Usage sample
 ============
@@ -58,7 +58,7 @@ Tests
 
 Travis status:
 
-.. image:: https://api.travis-ci.org/novapost/workalendar.png
+.. image:: https://api.travis-ci.org/peopledoc/workalendar.png
 
 
 To run test, just install tox with ``pip install tox`` and run::
@@ -74,8 +74,14 @@ Available Calendars
 Europe
 ------
 
+* Austria
 * Belgium
+* Bulgaria
+* Croatia
+* Cyprus
 * Czech Republic
+* Denmark
+* Estonia
 * European Central Bank
 * Finland
 * France
@@ -84,21 +90,28 @@ Europe
 * Greece
 * Hungary
 * Iceland
+* Ireland
 * Italy
+* Latvia
 * Luxembourg
+* Malta
 * Netherlands
 * Norway
 * Poland
 * Portugal
+* Romania
 * Slovakia
 * Sweden
 * United Kingdom (incl. Northern Ireland)
-* Spain
+* Spain (incl. Catalonia)
+* Slovenia
+* Switzerland
+  * Vaud
 
 America
 -------
 
-* Brazil (incl. São Paulo state and city)
+* Brazil (all states, cities and for bank transactions, except the city of Viana)
 * Chile
 * Colombia
 * Mexico
@@ -109,8 +122,11 @@ America
 Asia
 ----
 
+* Hong Kong
 * Japan
+* Malaysia
 * Qatar
+* Singapore
 * South Korea
 * Taiwan
 
@@ -144,7 +160,7 @@ the official data provided by the adequate authorities.
 Contributing
 ============
 
-Please read our `CONTRIBUTING.rst <https://github.com/novapost/workalendar/blob/master/CONTRIBUTING.rst>`_
+Please read our `CONTRIBUTING.rst <https://github.com/peopledoc/workalendar/blob/master/CONTRIBUTING.rst>`_
 document to discover how you can contribute to ``workalendar``. Pull-requests
 are very welcome.
 
